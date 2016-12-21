@@ -1,0 +1,35 @@
+package com.mongo.sample.constants;
+
+public enum ResubmitReasonCode {
+    
+    AgentError,
+    Binding,
+    BlueBlackSpots,
+    BorderTemplateIssue,
+    Color,
+    CorporateEscalation,
+    Cropping,
+    CustomerErrorOrderModification,
+    CustomerReceivedMixedOrder,
+    CustomerReceivedWrongOrder,
+    Cutting,
+    DamageInPlant,
+    DarkLight,
+    Defective,
+    MissingItems,
+    NonProfitOrganization,
+    OrderHasNotBeenPackaged,
+    Ps2StoreDidNotReceiveOrder,
+    PaperQuality,
+    PromotionAdjustment,
+    RedEye,
+    Resolution,
+    RotatedImages,
+    ShippingDamage,
+    ShippingDelay,
+    StreakingLinesInImage,
+    TaxExemption,
+    Testing,
+    Text,
+    VolumePricing
+}

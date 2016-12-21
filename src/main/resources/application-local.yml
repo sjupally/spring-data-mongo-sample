@@ -1,0 +1,8 @@
+# Mongo configuration
+mongo:
+  host:
+    name: localhost
+    port: 5672
+  credentials:
+    username: app
+    password: snappy  
