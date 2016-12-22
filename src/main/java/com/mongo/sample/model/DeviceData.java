@@ -8,9 +8,7 @@ import org.codehaus.jackson.map.annotate.JsonSerialize;
 
 import com.mongo.sample.common.CustomJson;
 
-/**
- * © Copyright 2013 Snapfish LLC
- */
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
 public class DeviceData implements CustomJson {

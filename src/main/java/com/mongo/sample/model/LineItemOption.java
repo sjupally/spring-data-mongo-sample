@@ -8,9 +8,7 @@ import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.codehaus.jackson.annotate.JsonProperty;
 import org.codehaus.jackson.annotate.JsonPropertyOrder;
 
-/**
- * © Copyright 2012 Snapfish LLC
- */
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonPropertyOrder({ "optionId", "quantity", "lineItemOptionId" })
 public class LineItemOption extends Refundable {

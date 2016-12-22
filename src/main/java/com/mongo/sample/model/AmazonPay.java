@@ -6,9 +6,7 @@ import org.codehaus.jackson.map.annotate.JsonSerialize;
 import com.mongo.sample.common.ITokenDataOverridable;
 import com.mongo.sample.common.ResourcePojo;
 
-/**
- * @author (c) 2013 Copyright Hewlett-Packard Development Company, L.P.
- */
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
 public class AmazonPay extends AbstractResourcePojo implements ResourcePojo, ITokenDataOverridable {

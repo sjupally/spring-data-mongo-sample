@@ -11,9 +11,7 @@ import com.mongo.sample.common.CustomJson;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
-/**
- * @author (c) 2013 Copyright Hewlett-Packard Development Company, L.P.
- */
+
 public class YodaRefundItemBean  implements CustomJson  {
     private BigDecimal cityTaxAmount;
     private BigDecimal cityTaxRate;

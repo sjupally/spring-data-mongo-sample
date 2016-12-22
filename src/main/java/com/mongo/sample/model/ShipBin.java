@@ -17,9 +17,7 @@ import com.mongo.sample.constants.DeliveryMethod;
 import com.mongo.sample.constants.DeliveryOption;
 import com.mongo.sample.model.StoreAddress.Store;
 
-/**
- * © Copyright 2012 Snapfish LLC
- */
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
 @JsonPropertyOrder({ "status", "trackingId", "shipper", "vendorId", "fulfillmentLocation", "deliveryMethod",

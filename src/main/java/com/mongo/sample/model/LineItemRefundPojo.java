@@ -4,9 +4,7 @@ import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 import com.mongo.sample.constants.RefundReasonCode;
 
-/**
- * © Copyright 2013 Snapfish LLC
- */
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class LineItemRefundPojo extends RefundPojo {
     Long lineItemId;

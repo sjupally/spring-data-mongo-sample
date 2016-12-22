@@ -9,9 +9,7 @@ import com.mongo.sample.common.Billable;
 import com.mongo.sample.common.ITokenDataOverridable;
 import com.mongo.sample.common.ResourcePojo;
 
-/**
- * © Copyright 2012 Snapfish LLC
- */
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
 public class Address extends AbstractResourcePojo 

@@ -2,9 +2,6 @@ package com.mongo.sample.model;
 
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
-/**
- * © Copyright 2013 Snapfish LLC
- */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class LineItemOptionRefundPojo extends RefundPojo {
 

@@ -8,10 +8,7 @@ import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.codehaus.jackson.annotate.JsonPropertyOrder;
 import org.codehaus.jackson.map.annotate.JsonSerialize;
 
-/**
- * Created with IntelliJ IDEA. User: julio Date: 6/10/13 Time: 12:57 PM
- * 
- */
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
 @JsonPropertyOrder({ "taxed", "source", "countryCode", "stateCode", "inclusive", "shipping", "taxes" })
